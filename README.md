@@ -1,4 +1,4 @@
-# Next13-StoryBook <!-- omit in toc -->
+# Next13-Storybook-Mantine <!-- omit in toc -->
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
