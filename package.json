@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "npm run lint:script && npm run lint:style",
+    "lint:script": "next lint --dir src --fix",
+    "lint:style": "stylelint ./**/*.{css,scss} --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -48,7 +50,9 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "3.0.1",
-    "storybook": "^7.2.1"
+    "storybook": "^7.2.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard-scss": "^10.0.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
