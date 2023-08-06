@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from '@/components/Button/Button'
+
 import { DateInput } from '@mantine/dates'
 
 export default function Home() {
