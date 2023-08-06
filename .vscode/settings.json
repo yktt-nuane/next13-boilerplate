@@ -4,7 +4,8 @@
     "Yokoyama",
     "mantine",
     "nextjs",
-    "autodocs"
+    "autodocs",
+    "tailwindcss"
   ],
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
