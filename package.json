@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -43,6 +45,12 @@
     "@storybook/react": "^7.2.1",
     "@storybook/testing-library": "^0.2.0",
     "eslint-plugin-storybook": "^0.6.13",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "3.0.1",
     "storybook": "^7.2.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
