@@ -5,7 +5,8 @@
     "mantine",
     "nextjs",
     "autodocs",
-    "tailwindcss"
+    "tailwindcss",
+    "stylelint"
   ],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -15,5 +16,5 @@
   },
   "css.validate": false,
   "scss.validate": false,
-  "files.insertFinalNewline": true,
+  "files.insertFinalNewline": true
 }
