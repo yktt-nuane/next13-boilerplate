@@ -16,7 +16,12 @@ export default function Home() {
         placeholder="クリックするとカレンダーが出る"
       />
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <Button label="test" primary size="large" onClick={handleClick} />
+        <Button
+          label="Storybookのボタン-個人ページへのリンク"
+          primary
+          size="large"
+          onClick={handleClick}
+        />
       </div>
     </main>
   )
