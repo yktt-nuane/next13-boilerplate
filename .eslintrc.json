@@ -1,12 +1,9 @@
 {
   "root": true,
   "extends": ["next/core-web-vitals", "plugin:storybook/recommended"],
-  "plugins": [
-    "import","unused-imports"
-   ],
-   "rules": {
-     "unused-imports/no-unused-imports": "error",
-     "import/order": [
+  "plugins": ["import"],
+  "rules": {
+    "import/order": [
       "error",
       {
         "groups": [
@@ -39,5 +36,5 @@
         }
       }
     ]
-   }
+  }
 }
