@@ -1,10 +1,12 @@
 {
   "recommendations": [
-    "DavidAnson.vscode-markdownlint",
-    "EditorConfig.editorconfig",
-    "njpwerner.autodocstring",
-    "shd101wyy.markdown-preview-enhanced",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
     "streetsidesoftware.code-spell-checker",
-    "yzhang.markdown-all-in-one"
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "antfu.vite",
+    "bradlc.vscode-tailwindcss"
   ]
 }
